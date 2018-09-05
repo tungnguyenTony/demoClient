@@ -1,0 +1,26 @@
+#-- Spring Boot Configuration
+spring:
+  data:
+    mongodb:
+      host: ds231720.mlab.com
+      port: 31720
+      database: heroku_b6pv7192
+      username: heroku_b6pv7192
+      password: nsopvrhcaq2abqccf7ovcqlli
+  freemarker:
+    template-loader-path: classpath:/
+
+server:
+  port: 8080
+  context-path: /
+
+
+#-- Application Configuration
+app:
+  image:
+    path: ./src/main/resources/static/images/common/upload/
+    size: 8000000
+    maxWidth: 1200
+    maxHeight: 1200
+
+  url: crm-zamo-demo.herokuapp.com
