@@ -15,3 +15,11 @@ Background and strategic fit: This service could consider an out of the box simp
 ![preview](https://github.com/tungnguyenTony/demoClient/blob/master/src/main/resources/static/images/common/CRM-Client%20Activities.jpg)
 
 ## [Launch demo here](https://zamo-demo-client.herokuapp.com/client/dashboard#/)
+
+## Example to call Client API
+  - Go to https://apitester.com/#
+  - Select Method as POST + use https://zamo-demo-client.herokuapp.com/client/data/insert link
+  - In the project crmdatamockup / crm / request.json folder => copy the content into the post data
+  - In the header add 1 record: Content-type - application / json
+  - Click Test
+  - If success will see the response below, if not see error message
