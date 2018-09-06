@@ -1,7 +1,7 @@
 package com.crm.core.model;
 
 /**
- * @author Thanh Vo
+ * @author Tung Nguyen
  *
  * @param <T>
  */
